@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/kale-swapnil/azure-blob-storage-golang/upload/blob"
+	"github.com/kale-swapnil/azure-blob-storage-golang/upload/"
 
 	"github.com/joho/godotenv"
 )
@@ -21,7 +21,7 @@ func main() {
 
 	fmt.Println("Calling Blob function")
 
-	err = blob.UploadBlob(container, blobName, filePath)
+	err = upload.UploadBlob(container, blobName, filePath)
 	if err != nil {
 		fmt.Println("Upload failed:", err)
 		os.Exit(1)
