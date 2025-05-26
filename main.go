@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/kale-swapnil/azure-blob-storage-golang/blob"
+	"github.com/kale-swapnil/azure-blob-storage-golang/upload/blob"
 
 	"github.com/joho/godotenv"
 )
